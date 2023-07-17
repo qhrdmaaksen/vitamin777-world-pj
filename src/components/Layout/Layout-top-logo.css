@@ -1,0 +1,9 @@
+.layoutTopLogo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    top: 10px;
+    width: 90%;
+    height: 10%;
+}

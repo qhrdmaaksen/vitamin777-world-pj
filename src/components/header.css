@@ -1,0 +1,22 @@
+.header-logo {
+    position: relative;
+    background-image: url("../../vitamin777world/vitamin777world.svg");
+    background-size: 220px 220px;
+    background-position: 0 0;
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+}
+
+.mainBannerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.header-mainBanner-child {
+    margin-top: -10%;
+    padding-bottom: 5%;
+    width: 50%;
+    height: 10%;
+    background-color: red;
+}

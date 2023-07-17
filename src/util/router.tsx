@@ -1,9 +1,10 @@
-import {Home} from "../pages/Home/home";
+import { Home } from "../pages/Home/home";
+import React from "react";
 
-export const RouterInfo = [
-    {
-        path: "/",
-        element: <Home />,
-        label: "home"
-    }
-]
+export const RouterInfo : {path: string, element: React.JSX.Element, label: string}[] = [
+  {
+    path: "/",
+    element: <Home />,
+    label: "home",
+  },
+];

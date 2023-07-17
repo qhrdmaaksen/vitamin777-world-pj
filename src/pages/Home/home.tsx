@@ -1,5 +1,13 @@
-export const Home = () => {
-    return (
-        <div>vitamin777 Main Home</div>
-    )
-}
+import { Header } from "../../components";
+import React from "react";
+
+export const Home: React.FC = () => {
+  return (
+    <div>
+      <div>
+        <Header />
+      </div>
+      <div>vitamin777 mainHomeContents</div>
+    </div>
+  );
+};
