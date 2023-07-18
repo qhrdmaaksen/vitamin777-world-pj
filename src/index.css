@@ -1,0 +1,5 @@
+/* 브라우저의 기본 css 제거 */
+body, html, form {
+    margin: 0;
+    padding: 0;
+}
