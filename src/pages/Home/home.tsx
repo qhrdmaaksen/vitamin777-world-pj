@@ -1,4 +1,4 @@
-import {Button, Header, Input} from "../../components";
+import {Button, Header, Input, NutritionalCustomizedExamination, SideIllust} from "../../components";
 import React from "react";
 
 export const Home: React.FC = () => {
@@ -11,7 +11,11 @@ export const Home: React.FC = () => {
           <Input />
           <Button />
       </div>
-      <div>vitamin777 mainHomeContents</div>
+      <div>
+          vitamin777 mainHomeContents
+        <SideIllust />
+          <NutritionalCustomizedExamination />
+      </div>
     </div>
   );
 };
